@@ -1,4 +1,4 @@
-# Docker Cheat Sheet — Базовые команды
+# Docker — Базовые команды
 
 ## 1. Информация о Docker
 
@@ -32,7 +32,7 @@ docker restart container_name                  # Перезапуск конте
 docker rm container_name                       # Удаление контейнера
 docker exec -it container_name /bin/bash       # Подключение к работающему контейнеру
 docker logs container_name                     # Просмотр логов контейнера
-docker inspect container_name    # Подробная информация о контейнере
+docker inspect container_name                  # Подробная информация о контейнере
 ```
 
 ## 4. Docker Compose
